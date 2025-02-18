@@ -1,0 +1,21 @@
+# Ignore Grafle, IDE, build, compiled and log files
+.gradle/
+build/
+out/
+
+.idea/
+*.iml
+*.ipr
+*.iws
+logs/
+*.log
+
+# Ignore local configuration files
+application-local.properties
+
+*.class
+*.jar
+*.war
+*.ear
+
+**/target/
