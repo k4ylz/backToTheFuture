@@ -1,4 +1,8 @@
-
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springdoc.core.OpenAPI;
+import org.springdoc.core.info.Info;
+import org.springdoc.core.info.License;
 
 @Configuration
 public class SwaggerConfig {
